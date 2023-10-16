@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start</title>
+</head>
+
+<link rel="stylesheet" href="./media/Style.css">
+
+<style>
+    .img-zelf
+    {
+        width: 20%;
+        padding: 20px;
+    }
+    .omschrijving
+    {
+        padding: 20px;
+        width: 600px;
+    }
+
+    table
+    {
+        padding-left: 20px;
+        padding-top: 50px;
+        height: 400px;
+    }
+
+    .grid-div
+    {
+        grid-template-columns: auto, auto;
+        float: right;
+        align-items: center;
+        width: 50%;
+    }
+    .grit-solid
+    {
+        margin: auto;
+    }
+    .grid-melt
+    {
+        margin: auto;
+        padding: 20px;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+</style>
+<body>
+    <div class="title-bar">
+        <header>Jens Brees</header>
+    </div>
+
+    <nav class="navigation">
+        <a href="./Start.html" class="active">Start</a><br>
+        <a href="./Contact.html">Contact</a><br>
+        <a href="./Ervaringen.html">Ervaringen</a><br>
+        <a href="./Interesses.html">Interesses</a><br>
+        <a href="./Curriculum Vitae.html">CV</a>
+    </nav>
+
+    <div class="flex-div-row">
+        <img src="./media/img/Zelf.jpg" alt="Foto Jens Brees" title="Foto Jens Brees" class="img-zelf">
+
+        <div class="omschrijving">
+            <h1>Korte Zelfomschrijving</h1>
+            <p>Ik ben Jens Brees. Ik was geboren op 25 mei 2004 in Brasschaat en woon al 
+                sinds zolang ik me kan herinneren in Hechtel. Na 3 jaar wetenschappen wiskunde 
+                te hebben gestudeerd in het middelbaar en een onderbroken traject Fysica in 
+                Leuven had ik besloten om mijn <a href="./Interesses.html">interesse</a> in Programmeren te achtervolgen in 
+                Thomas More Geel. In deze website vindt u al de nodige informatie over mijn 
+                leven van <a href="./Ervaringen.html">ervaringen</a> tot mijn <a href="./Curriculum Vitae.html">CV</a>, maar indien u nog vragen heeft kunt u mij 
+                altijd <a href="./Contact.html">contacteren</a>. 
+            </p>
+        </div>
+    </div>
+
+    <div class="flex-div-row">
+        <table>
+            <tr>
+                <th>PROS</th>
+                <th>CONS</th>
+            </tr>
+            <tr>
+                <td>Zelfredzaam</td>
+                <td>Perfectionistisch</td>
+            </tr>
+            <tr>
+                <td>Gepassioneerd</td>
+                <td>Verlegen</td>
+            </tr>
+            <tr>
+                <td>Creatief</td>
+                <td>Geen Werkervaring</td>
+            </tr>
+            <tr>
+                <td>Nieuwsgierig</td>
+                <td>Slecht met druktes</td>
+            </tr>
+            <tr>
+                <td>Flexibel</td>
+                <td></td>
+            </tr>
+        </table>
+
+        <div class="grid-div">
+            <h1 class="grid-melt">Onderwijs:</h1>
+            <a href="https://www.provilion.be/nl" target="_blank" class="grit-solid"><img src="./media/img/Provil-ion-Logo.png" alt="Provil-ION logo" title="Provil-ION"></a>
+            <a href="https://thomasmore.be/nl" target="_blank" class="grit-solid"><img src="./media/img/Thomas-More-Logo.png" alt="Thomas More logo" title="Thomas More" height="100px"></a>
+            <a href="https://www.provilion.be/nl/studie/6-wetenschappen-wiskunde" target="_blank" class="grit-solid">ASO Wetenschappen Wiskunde</a>
+            <a href="https://thomasmore.be/nl/opleidingen/graduaat/programmeren/geel/basistraject" target="_blank" class="grit-solid">Graduaat Programmeren</a>
+        </div>
+    </div>
+</body>
+</html>

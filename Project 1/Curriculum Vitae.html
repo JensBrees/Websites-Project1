@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+</head>
+
+<link rel="stylesheet" href="./media/Style.css">
+
+<style>
+    .zelf-bar
+    {
+        display: flex;
+        flex-direction: row;
+        background-color: #146663;
+        width: 85%;
+        height: 200px;
+        margin-top: 20px;
+    }
+    .zelf-img
+    {
+        height: 95%;
+        padding: 5px;
+    }
+    .zelf-id
+    {
+        padding: 20px;
+    }
+    .zelf-id-thing
+    {
+        color: #212B31;
+    }
+
+    .cv
+    {
+        width: 180px;
+    }
+    .cv-div
+    {
+        padding-top: 75px;
+        float: right;
+        text-align: center;
+    }
+</style>
+<body>
+    <div class="title-bar">
+        <header>Curriculum Vitae</header>
+    </div>
+    <nav class="navigation">
+        <a href="./Start.html">Start</a><br>
+        <a href="./Contact.html">Contact</a><br>
+        <a href="./Ervaringen.html">Ervaringen</a><br>
+        <a href="./Interesses.html">Interesses</a><br>
+        <a href="./Curriculum Vitae.html" class="active">CV</a>
+        <div class="cv-div">
+            <a href="./media/CV.pdf" target="_blank"><img src="./media/img/CV.JPG" alt="CV" title="CV" class="cv"></a>
+            <p>Klik op afbeelding voor pdf</p>
+        </div>
+    </nav>
+    <div class="zelf-bar">
+        <img src="./media/img/Zelf.jpg" alt="Foto Jens Brees" title="Foto Jens Brees" class="zelf-img">
+        <div class="zelf-id">
+            <h1 class="zelf-id-thing">Jens Brees</h1>
+            <p class="zelf-id-thing">25/05/2004</p>
+        </div>
+    </div>
+    <div class="flex-div-row">
+        <div class="flex-div-column">
+            <h1>Contactgegevens:</h1>
+            <div class="failed-grid">
+                <div>
+                    <p>Telefoonnummer:</p>
+                    <p>Email:</p>
+                    <p>Adres:</p>
+                </div>
+                <div class="extra-padding">
+                    <p><a href="tel:+32123456789">+32 123 45 67 89</a></p>
+                    <p><a href="mailto:r0935709@student.thomasmore.be">r0935709@student.thomasmore.be</a></p>
+                    <p><a href="https://maps.app.goo.gl/viM5cJUxxAuQ95nE8">Straatnaam 1, 3940 Hechtel-Eksel</a></p>
+                </div>
+            </div>
+            <h1>Onderwijs:</h1>
+            <a href="./Ervaringen.html">
+                <img src="./media/img/Tijdlijn.png" 
+                alt="Tijdlijn: 2016 tot 2022, Wetenschappen Wiskunde in Provil-ION. 2022 tot 2023 Fysica in KU Leuven. 2023 tot nu Graduaat Programmeren in Thomas More" 
+                title="Tijdlijn">
+            </a>
+        </div>
+        <div class="flex-div-row">
+            <div>
+                <h1>Vaardigheden:</h1>
+                <ul>
+                    <li>Programmeren</li>
+                    <il>
+                        <ul>
+                            <li>Python</li>
+                            <li>C# (beginner)</li>
+                            <li>SQL (beginner)</li>
+                            <li>HTML (beginner)</li>
+                        </ul>
+                    </il>
+                    <li>Talen</li>
+                    <il>
+                        <ul>
+                            <li>Nederlands</li>
+                            <li>Engels</li>
+                        </ul>
+                    </il>
+                    <li>Basiskennis wetenschappen</li>
+                </ul>
+            </div>
+            <div class="extra-padding">
+                <h1>Eigenschappen:</h1>
+                <ul class="extra-space">
+                    <li>Zelfredzaam</li>
+                    <li>Perfectionistisch</li>
+                    <li>Gepassioneerd</li>
+                    <li>Creatief</li>
+                    <li>Nieuwsgierig</li>
+                    <li>Flexibel</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
