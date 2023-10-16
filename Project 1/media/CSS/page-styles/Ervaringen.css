@@ -1,0 +1,10 @@
+.flex-div-row
+{
+    width: 75%;
+}
+.grid-div
+{
+    grid-template-columns: auto;
+    width: 50%;
+    padding: 100px;
+}

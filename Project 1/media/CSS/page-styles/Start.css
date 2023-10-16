@@ -1,0 +1,36 @@
+.img-zelf
+{
+    width: 20%;
+    padding: 20px;
+}
+.omschrijving
+{
+     padding: 20px;
+     width: 600px;
+}
+
+table
+{
+    padding-left: 20px;
+    padding-top: 50px;
+    height: 400px;
+}
+
+.grid-div
+{
+    grid-template-columns: auto, auto;
+    float: right;
+    align-items: center;
+    width: 50%;
+}
+.grit-solid
+{
+    margin: auto;
+}
+.grid-melt
+{
+    margin: auto;
+    padding: 20px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
